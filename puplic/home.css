@@ -1,0 +1,128 @@
+.navbar_frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #443297;
+}
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 14px;
+}
+.navbar_top {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+.navbar_top > a img {
+  margin-right: 76px;
+  width: 100px;
+}
+.navbar_top .nav_search_frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 651px;
+  height: 50px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.navbar_top .search_box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  padding: 10px 15px;
+}
+.navbar_top .select {
+  width: 166px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid #d6d6d6;
+}
+.select select {
+  width: 140px;
+  height: 22px;
+  border: none;
+  outline: none;
+}
+.search_box1 input {
+  width: 387px;
+  height: 22px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+}
+.search_icon_box {
+  background-color: #f5c34b;
+  width: 57px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_icon_box img {
+  width: 23px;
+  height: 23px;
+}
+.navbar_top .nav_search_menu {
+  width: 416px;
+  height: 5opx;
+  margin-left: 59px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_top_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.box_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+.box_icon img {
+  width: 25px;
+  height: 25px;
+}
+.box_info {
+  display: flex;
+  flex-direction: column;
+}
+.box_info span {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #ffff;
+}
+
+.navbar_bot {
+  width: 100%;
+  height: 35px;
+  background-color: blue;
+}
