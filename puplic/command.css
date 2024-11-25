@@ -9,3 +9,240 @@ a {
 a {
   margin: 0%;
 }
+/*navbar qismi*/
+.container {
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+}
+
+.navbar_frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #443297;
+}
+.navbar_frame .container {
+  flex-direction: column;
+  padding: 20px 0px 14px;
+}
+.navbar_frame .navbar_top {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .navbar_top > a img {
+  margin-right: 76px;
+
+  width: 100px;
+}
+.navbar_frame .navbar_top .nav_search_frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 651px;
+  height: 50px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.navbar_frame .navbar_top .search_box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: auto;
+  height: auto;
+  padding: 10px 15px;
+}
+.navbar_frame .navbar_top .select {
+  width: 166px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid #d6d6d6;
+}
+.navbar_frame .select select {
+  width: 140px;
+  height: 22px;
+  border: none;
+  outline: none;
+
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.navbar_frame .search_box1 input {
+  width: 387px;
+  height: 22px;
+  margin-left: 10px;
+  outline: none;
+  border: none;
+
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.navbar_frame .search_icon_box {
+  background-color: #f5c34b;
+  width: 57px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_frame .search_icon_box img {
+  width: 23px;
+  height: 23px;
+}
+.navbar_frame .navbar_top .nav_search_menu {
+  width: 416px;
+  height: 5opx;
+  margin-left: 59px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar_frame .menu_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.navbar_frame .box_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  position: relative;
+}
+.navbar_frame .box_icon img {
+  width: 25px;
+  height: 25px;
+}
+.navbar_frame .box_info {
+  display: flex;
+  flex-direction: column;
+}
+.navbar_frame .box_info span {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #ffff;
+  margin-left: 15px;
+}
+.navbar_frame .box_info strong {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #ffff;
+  margin-left: 15px;
+}
+.navbar_frame .box_icon .basket_count {
+  width: 15px;
+  height: 15px;
+  background: #f5c34b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 70%;
+}
+
+.navbar_frame .navbar_bot {
+  margin-top: 20px;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #5647a1;
+}
+.navbar_frame .navbar_bot .navbar_bot_menu_box {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .navbar_bot_menu_box .browse_box {
+  width: 185px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid #5647a1;
+}
+.navbar_frame .browse_box img {
+  width: 20px;
+  height: 18px;
+  margin-right: 10px;
+}
+.navbar_frame .browse_box span {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffff;
+}
+.navbar_frame .navbar_bot_menu_box .navbar_route_menu {
+  margin-left: 12px;
+  width: 690px;
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .navbar_route_menu .router_menu {
+  margin-right: 20px;
+  width: auto;
+  height: 41px;
+  display: flex;
+}
+.navbar_frame .router_menu a {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.navbar_frame .router_menu a.active {
+  color: #f5c34b;
+}
+.navbar_frame .navbar_bot_menu_box .sorting_menu {
+  display: flex;
+  flex-direction: row;
+}
+.navbar_frame .sorting_menu span {
+  font-family: "jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-left: 20px;
+}
