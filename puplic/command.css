@@ -1,3 +1,6 @@
+:root {
+  --font: "jost";
+}
 html,
 body {
   margin: 0%;
@@ -76,7 +79,7 @@ a {
   border: none;
   outline: none;
 
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -89,7 +92,7 @@ a {
   outline: none;
   border: none;
 
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -142,7 +145,7 @@ a {
   flex-direction: column;
 }
 .navbar_frame .box_info span {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -151,7 +154,7 @@ a {
   margin-left: 15px;
 }
 .navbar_frame .box_info strong {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -203,7 +206,7 @@ a {
   margin-right: 10px;
 }
 .navbar_frame .browse_box span {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -223,7 +226,7 @@ a {
   display: flex;
 }
 .navbar_frame .router_menu a {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -238,7 +241,7 @@ a {
   flex-direction: row;
 }
 .navbar_frame .sorting_menu span {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -262,7 +265,7 @@ a {
 .footer_spec_title {
   display: block;
   margin-bottom: 20px;
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -301,7 +304,7 @@ a {
   flex-direction: column;
 }
 .footer_contact_main div strong {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -309,7 +312,7 @@ a {
 }
 .footer_contact_main div span {
   margin-top: 10px;
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -321,7 +324,7 @@ a {
   flex-direction: column;
 }
 .footer_Support_box {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -356,7 +359,7 @@ a {
 }
 .mobile_app_box span {
   margin-left: 20px;
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -393,7 +396,7 @@ a {
 }
 .footer_bottom_left span {
   margin-right: 60px;
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -420,7 +423,7 @@ a {
   border: 1px solid#eaeaea;
 }
 .footer_select_box span {
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -436,10 +439,9 @@ a {
   border: none;
   outline: none;
   cursor: pointer;
-  font-family: "jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-
   color: #041e42;
 }
